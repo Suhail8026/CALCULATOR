@@ -17,3 +17,9 @@ This is a basic calculator built using **HTML**, **CSS**, and **JavaScript**. It
   - All Clear (`AC`)
   - Backspace (`BC`)
 - Double zero (`00`) and single zero (`0`) buttons
+<br>
+# How it Works
+
+- Input is taken via on-screen buttons.
+- JavaScript functions (`fun()`, `result()`, etc.) handle the logic and update the display.
+- CSS styles are applied to ensure a user-friendly interface.
