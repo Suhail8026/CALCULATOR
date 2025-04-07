@@ -23,3 +23,6 @@ This is a basic calculator built using **HTML**, **CSS**, and **JavaScript**. It
 - Input is taken via on-screen buttons.
 - JavaScript functions (`fun()`, `result()`, etc.) handle the logic and update the display.
 - CSS styles are applied to ensure a user-friendly interface.
+# Feedback
+
+If you find bugs or have suggestions, feel free to open an issue or contribute!
