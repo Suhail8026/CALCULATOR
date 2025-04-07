@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <h1>calculator</h1>
+        <div class="colculator">
+         <input type="text" name="" id="header" placeholder="0.">
+            <table id="one">
+                <tr>
+                 <td><button onclick="fun1('AC')" class="optor">AC</button></td>
+                 <td><button onclick="fun2('%')" class="optor">%</button></td>
+                 <td><button onclick="fun3('BC')" class="optor">BC</button></td>
+                 <td><button onclick="fun4('/')" class="optor">/</button></td>
+                </tr>
+                <tr>
+                 <td><button onclick="fun('7')">7</button></td>
+                 <td><button onclick="fun('8')">8</button></td>
+                 <td><button onclick="fun('9')">9</button></td>
+                 <td><button onclick="fun5('x')" class="optor">x</button></td>
+                </tr>
+                <tr>
+                  <td><button onclick="fun('4')">4</button></td>
+                  <td><button onclick="fun('5')">5</button></td>
+                  <td><button onclick="fun('6')">6</button></td>
+                  <td><button onclick="fun6('-')"  class="optor">-</button></td>
+                </tr>
+                <tr>
+                  <td><button onclick="fun('1')">1</button></td>
+                  <td><button onclick="fun('2')">2</button></td>
+                  <td><button onclick="fun('3')">3</button></td>
+                  <td><button onclick="fun7('+')" class="optor">+</button></td>
+                </tr>
+                <tr>
+                  <td><button onclick="fun9('00')">00</button></td>
+                  <td><button onclick="fun10('0')">0</button></td>
+                  <td><button onclick="fun8('.')">.</button></td>
+
+                  <td><button onclick="result()"  class="equalto">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>

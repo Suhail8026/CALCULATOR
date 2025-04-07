@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+}
+.container
+{
+    /* text-align: center; */
+    border: 2px solid #713177;
+    padding: 22px;
+    border-radius: 18px;
+    box-shadow: 0px 3px 15px rgba(133,115,119,0.8);
+
+}
+h1
+{
+    color: brown;
+    text-align: center;
+}
+   
+#header
+{
+    width: 320px;
+    font-size: 35px;
+    height: 40px;
+    border:none;
+    border-radius: 10px;
+    padding: 8px;
+    text-align: right;
+    background-color: darkslategray;
+    cursor: pointer;
+      
+}
+#header::placeholder
+{
+    color: black;
+    opacity: 0.3;
+}
+button
+{
+   	width: 69px;
+   	height: 60px;
+    margin: 6px;
+    font-size: 30px;
+    font-family:'Helvetica Neue';
+    background-color:transparent;
+    box-shadow: -8px 8px 13px rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 50%;
+    border:none;
+}
+button:hover
+{
+   color: #ffffff;
+}
+.equalto
+{
+    background-color: gold;
+    color: black;
+}
+.optor
+{
+    color: #713177;
+}
+
+
+
+ /* For Tablets and Small Screens */
+@media (max-width: 768px) {
+    button {
+        width: 160px;
+        height: 85px;
+        font-size: 3rem;
+    }
+
+    #header {
+        width: 95%;
+        font-size: 2rem;
+        height: 45px;
+    }
+    .container{
+        width: 100%;
+        max-width: 768px;
+        height: auto;
+        margin: 0 auto;
+        /* padding-left: 8px; */
+    }
+    .colculator{
+        margin-left: 12px;
+    }
+}
+
+/* For Mobile Devices */
+@media (max-width: 480px) {
+    button {
+        width: 72px;
+        height: 55px;
+        font-size: 1.5rem;
+    }
+
+    #header {
+        font-size: 1.3rem;
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+    .container{
+        margin: 0px;
+        width: 100%;
+    }
+    .colculator{
+        margin-left:13px;
+    }
+}
+
+/* For Extra Small Devices */
+@media (max-width: 360px) {
+    button {
+        width: 70px;
+        height: 52px;
+        font-size: 1.5rem;
+    }
+
+    #header {
+        font-size: 1.5rem;
+        height: 30px;
+    }
+
+    h1 {
+        /* font-size: 1.5rem; */
+    }
+    .container{
+        width: 100%;
+        max-width: 360px;
+        margin: 0;
+        padding: 7px;
+    }
+}
